@@ -29,3 +29,53 @@ body{
 #img-caption{
   padding: 1rem 0;
 }
+#tribute-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#tribute-info h1{
+  font-size: large;
+  margin: 40px 2px 45px 2px;
+  padding-top: 10px;;
+}
+
+#tribute-info ul{
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 600px;
+}
+
+#tribute-info ul li{
+  padding: 5px;
+  margin: 15px 0;
+  font-family: Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+blockquote{
+  width: 500px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 5px;
+}
+
+#tribute-info p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 5px;
+}
+img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
